@@ -16,8 +16,10 @@ func main() {
 	fmt.Println("your number: ", secretNumber)
 
 	for quit != true {
+
 		fmt.Print("Please enter Your number : ")
 		fmt.Scan(&userInput)
+
 		if userInput == secretNumber {
 			fmt.Println("You Won")
 			quit = true
