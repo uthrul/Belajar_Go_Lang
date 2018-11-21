@@ -22,6 +22,9 @@ func main() {
 
 	s := z + u
 
+	a := true
+	b := false
+
 	fmt.Println(n)
 	fmt.Println(m, x, y, z)
 	fmt.Println(u)
@@ -30,4 +33,7 @@ func main() {
 	fmt.Println(x == z)
 	fmt.Println(x < z)
 	fmt.Println(z >= x)
+	fmt.Println(a && b)
+	fmt.Println(a || b)
+	fmt.Println(!a)
 }
