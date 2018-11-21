@@ -49,7 +49,17 @@ func main() {
 	} else if x > y {
 		fmt.Println("x lebih besar dari y")
 	} else {
-		fmt.Println(" x dan y sama besar")
+		fmt.Println("x dan y sama besar")
+	}
+
+	switch z {
+	case 100:
+		fmt.Println("yes z adalah 100")
+	}
+
+	switch {
+	case z > u:
+		fmt.Println("yes z lebih besar daru u")
 	}
 
 }
