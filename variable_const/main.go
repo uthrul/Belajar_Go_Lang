@@ -62,4 +62,22 @@ func main() {
 		fmt.Println("yes z lebih besar daru u")
 	}
 
+	for y < z {
+		y++
+		fmt.Println(y)
+	}
+
+	for x < z {
+		x++
+		if x == 20 {
+			continue
+		}
+		if x == 30 {
+			break
+		}
+		fmt.Printf("golang ")
+		fmt.Println(x)
+
+	}
+
 }

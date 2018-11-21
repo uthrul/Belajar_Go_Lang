@@ -40,4 +40,12 @@ func main() {
 		fmt.Printf("%d ", l)
 	}
 	fmt.Println()
+
+	x := 10
+	var y int
+
+	for y < x {
+		y++
+		fmt.Println(y)
+	}
 }
