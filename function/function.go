@@ -7,7 +7,7 @@ import (
 func main() {
 	fmt.Println("function on Golang")
 
-	//fucntion two
+	//fucntion two Function as Value
 	boom := func(x, y int) int {
 		return x * y
 	}
