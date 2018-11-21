@@ -36,4 +36,20 @@ func main() {
 	fmt.Println(a && b)
 	fmt.Println(a || b)
 	fmt.Println(!a)
+
+	boom := false
+	if !boom {
+		fmt.Println("ya ini benar")
+	} else {
+		fmt.Println("salah")
+	}
+
+	if x < y {
+		fmt.Println(" x lebih kecil dari y")
+	} else if x > y {
+		fmt.Println("x lebih besar dari y")
+	} else {
+		fmt.Println(" x dan y sama besar")
+	}
+
 }
