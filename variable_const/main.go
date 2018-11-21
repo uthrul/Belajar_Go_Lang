@@ -26,4 +26,8 @@ func main() {
 	fmt.Println(m, x, y, z)
 	fmt.Println(u)
 	fmt.Println(s)
+	fmt.Println(x == y)
+	fmt.Println(x == z)
+	fmt.Println(x < z)
+	fmt.Println(z >= x)
 }
