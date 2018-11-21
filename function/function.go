@@ -7,12 +7,22 @@ import (
 func main() {
 	fmt.Println("function on Golang")
 
+	//fucntion two
+	boom := func(x, y int) int {
+		return x * y
+	}
+	fmt.Println("boom is = ", boom(10, 5))
+
 	x := 10
 	y := 10
+	fmt.Println("add is = ", add(x, y))
 
-	z := add(x, y)
-	fmt.Println(z)
+	helloGo := func(name string) string {
+		return fmt.Sprint("Hello Golang Mania ", name)
+	}
+	fmt.Println(helloGo(" sauth rully"))
 
+	//fucntion one
 	name := "sauthrully"
 	result := hello(name)
 
@@ -26,7 +36,7 @@ func main() {
 
 }
 
-func add(x int, y int) int {
+func add(x, y int) int {
 	return x * y
 }
 
